@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -46,11 +47,13 @@ body {
 #entrar,
 #cadastrar,
 #esqueci {
-  font-family: "Cairo", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 501;
   margin-left: 10px;
   margin-right: 10px;
 }
 h1 {
+  font-family: "PT Sans", sans-serif;
   margin: 20px;
   text-align: center;
 }
@@ -84,7 +87,7 @@ label {
   border-radius: 15px;
   padding: 10px;
   background: black;
-  font-family: "Cairo", sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: black;
   transition: 0.2s ease;
 }
@@ -153,7 +156,7 @@ input {
   flex-direction: column;
   align-items: flex-end;
   text-align: center;
-  font-family: "Cairo", sans-serif;
+  font-family: "PT Sans", sans-serif;
   padding: 0rem 20% 4rem 10%;
   background-color: #007940;
   margin-top: 68px;
@@ -169,8 +172,9 @@ input {
 
 .painel p {
   color: #f0f0f0;
-  font-size: 0.95rem;
-  padding: 1rem 0;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  padding: 10px 0 20px 0;
 }
 
 .imgLogin {
@@ -182,7 +186,7 @@ input {
   border-radius: 15px;
   padding: 10px;
   background: #ffffff;
-  font-family: "Cairo", sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: black;
   transition: 0.2s ease;
 }
